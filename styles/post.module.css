@@ -41,6 +41,8 @@
 
 .title:hover {
   text-decoration: underline;
+
+  cursor: pointer;
 }
 
 .text {
@@ -63,6 +65,8 @@
 
 .readMore:hover {
   text-decoration: underline;
+
+  cursor: pointer;
 }
 
 .h1 {

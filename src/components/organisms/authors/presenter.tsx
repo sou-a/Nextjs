@@ -14,7 +14,11 @@ export const Authors: FC<AuthorsProps> = ({ authors }) => {
         <ul className={styles.ul}>
           {authors.map((author) => {
             return (
-              <Author src={author.src} name={author.name} date={author.date} />
+              <Author
+                src={author.src}
+                name={author.name}
+                postCount={author.postCount}
+              />
             )
           })}
         </ul>
@@ -26,17 +30,17 @@ export const Authors: FC<AuthorsProps> = ({ authors }) => {
 interface AuthorProps {
   src: string
   name: string
-  date: string
+  postCount: string
 }
 
 // TODO: PostのAuthorと微妙に違うから作り直さないといけない...
-const Author: FC<AuthorProps> = ({ src, name, date }) => {
+const Author: FC<AuthorProps> = ({ src, name, postCount }) => {
   return (
     <li className={styles.li}>
       <Img src={src} name={name} />
       <p>
         <a className={styles.a}>{name}</a>
-        <span className={styles.span}>{date}</span>
+        <span className={styles.span}>Created {postCount} Posts</span>
       </p>
     </li>
   )

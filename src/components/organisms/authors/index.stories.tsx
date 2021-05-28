@@ -15,12 +15,12 @@ Default.args = {
     {
       src: '/images/pikachu.png',
       name: 'avatar',
-      date: '2020/10/12',
+      postCount: '20',
     },
     {
       src: '/images/pikachu.png',
       name: 'avatar2',
-      date: '2020/10/13',
+      postCount: '13',
     },
   ],
 }

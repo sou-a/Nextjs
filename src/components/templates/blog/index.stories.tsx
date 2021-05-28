@@ -37,12 +37,12 @@ Default.args = {
       {
         src: '/images/pikachu.png',
         name: 'avatar',
-        date: '2020 10 12',
+        postCount: '22',
       },
       {
         src: '/images/pikachu.png',
         name: 'avatar2',
-        date: '2020 10 13',
+        postCount: '23',
       },
     ],
   },
@@ -52,6 +52,10 @@ Default.args = {
   recentPost: {
     tag: { value: 'Tag' },
     title: 'Title',
-    author: { author: 'Author', src: 'images/pikachu.png' },
+    author: {
+      src: '/images/pikachu.png',
+      name: 'author',
+      date: '2020/10/12',
+    },
   },
 }

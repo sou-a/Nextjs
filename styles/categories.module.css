@@ -43,6 +43,8 @@
   color: rgba(75, 85, 99, var(--tw-text-opacity));
 
   text-decoration: underline;
+
+  cursor: pointer;
 }
 
 .li {
@@ -71,6 +73,5 @@
 }
 
 .ul {
-  /* user agent stylesheet上書き */
-  padding-inline-start: initial;
+  padding-inline-start: 0px;
 }

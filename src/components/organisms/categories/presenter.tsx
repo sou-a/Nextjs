@@ -11,6 +11,7 @@ export const Categories: FC<CategoriesProps> = ({ categories }) => {
       <h1 className={styles.h1}>Categories</h1>
       <div className={styles.layout}>
         {/* TODO: user agent stylesheetが効いているので表示が正しくない */}
+        {/* <ul className={styles.ul}> */}
         <ul>
           {categories.map((category) => {
             return <Category value={category.value} />

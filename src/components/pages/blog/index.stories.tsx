@@ -27,6 +27,27 @@ Default.args = {
         author: { author: 'Author2', src: 'images/pikachu.png' },
         tag: { value: 'Tag2' },
       },
+      {
+        postDate: '2021/5/02',
+        title: 'Title3',
+        text: 'Text3',
+        author: { author: 'Author3', src: 'images/pikachu.png' },
+        tag: { value: 'Tag3' },
+      },
+      {
+        postDate: '2021/5/02',
+        title: 'Title4',
+        text: 'Text4',
+        author: { author: 'Author4', src: 'images/pikachu.png' },
+        tag: { value: 'Tag4' },
+      },
+      {
+        postDate: '2021/5/02',
+        title: 'Title5',
+        text: 'Text5',
+        author: { author: 'Author5', src: 'images/pikachu.png' },
+        tag: { value: 'Tag5' },
+      },
     ],
     selectBox: {
       values: ['Latest', 'Last Week'],
@@ -37,12 +58,12 @@ Default.args = {
       {
         src: '/images/pikachu.png',
         name: 'avatar',
-        date: '2020 10 12',
+        postCount: '22',
       },
       {
         src: '/images/pikachu.png',
         name: 'avatar2',
-        date: '2020 10 13',
+        postCount: '23',
       },
     ],
   },
@@ -52,6 +73,10 @@ Default.args = {
   recentPost: {
     tag: { value: 'Tag' },
     title: 'Title',
-    author: { author: 'Author', src: 'images/pikachu.png' },
+    author: {
+      src: '/images/pikachu.png',
+      name: 'author',
+      date: '2020/10/12',
+    },
   },
 }

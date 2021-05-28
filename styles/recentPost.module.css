@@ -57,6 +57,8 @@
   /* hover:bg-gray-500 */
   --tw-bg-opacity: 1;
   background-color: rgba(107, 114, 128, var(--tw-bg-opacity));
+
+  cursor: pointer;
 }
 
 .contents {
@@ -78,6 +80,8 @@
 .title:hover {
   /* hover:underline */
   text-decoration: underline;
+
+  cursor: pointer;
 }
 
 .bottom {
@@ -110,6 +114,8 @@
 .name:hover {
   /* hover:underline */
   text-decoration: underline;
+
+  cursor: pointer;
 }
 
 .author {

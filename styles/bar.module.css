@@ -21,6 +21,7 @@
   /* hover:text-blue-500 */
   --tw-text-opacity: 1;
   color: rgba(59, 130, 246, var(--tw-text-opacity));
+  cursor: pointer;
 }
 
 .linkLayout {
@@ -92,6 +93,7 @@
   /* hover:text-gray-600 */
   --tw-text-opacity: 1;
   color: rgba(75, 85, 99, var(--tw-text-opacity));
+  cursor: pointer;
 }
 
 .button:focus {
