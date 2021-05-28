@@ -1,0 +1,46 @@
+.bg {
+  /* bg-gray-200 */
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+}
+
+.bg2 {
+  /* overflow-x-hidden bg-gray-100 */
+  overflow-x: hidden;
+
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+
+.container {
+  /* container flex justify-between mx-auto */
+  width: 100%;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sideBar {
+  /* hidden w-4/12 -mx-8 lg:block */
+  width: 33.333333%;
+
+  margin-left: -2rem;
+  margin-right: -2rem;
+
+  /* @media (min-width: 1024px) { */
+  display: block;
+  /* } */
+}
+
+.padding {
+  /* px-6 py-8 */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
