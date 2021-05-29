@@ -14,7 +14,7 @@ export const Categories: FC<CategoriesProps> = ({ categories }) => {
         {/* <ul className={styles.ul}> */}
         <ul>
           {categories.map((category) => {
-            return <Category value={category.value} />
+            return <Category key={category.value} value={category.value} />
           })}
         </ul>
       </div>

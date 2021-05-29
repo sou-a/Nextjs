@@ -17,9 +17,9 @@ export const Posts: FC<PostListProps> = ({ posts, selectBox }) => {
         <h1 className={styles.h1}>Post</h1>
         <SelectBox values={selectBox.values} />
       </div>
-      {posts.map((post) => {
+      {posts.map((post, index) => {
         return (
-          <div className={styles.mt}>
+          <div className={styles.mt} key={index}>
             <Post
               postDate={post.postDate}
               title={post.title}

@@ -48,6 +48,8 @@
 }
 
 .li {
+  /* TODO: mt-2が入らない？ */
+  margin-top: 0.5rem;
   list-style: none;
 }
 

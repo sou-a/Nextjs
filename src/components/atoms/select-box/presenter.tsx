@@ -10,7 +10,7 @@ export const SelectBox: FC<SelectBoxProps> = ({ values }) => {
     <div>
       <select className={styles.selectBox}>
         {values.map((value) => {
-          return <option>{value}</option>
+          return <option key={value}>{value}</option>
         })}
       </select>
     </div>

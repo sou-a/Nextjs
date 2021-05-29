@@ -15,6 +15,7 @@ export const Authors: FC<AuthorsProps> = ({ authors }) => {
           {authors.map((author) => {
             return (
               <Author
+                key={author.name}
                 src={author.src}
                 name={author.name}
                 postCount={author.postCount}

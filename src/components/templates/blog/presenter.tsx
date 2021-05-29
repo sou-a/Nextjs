@@ -28,7 +28,9 @@ export const Blog: FC<BlogProps> = ({
   recentPost,
 }) => {
   return (
-    <body className={styles.bg}>
+    // Warning: validateDOMNesting(...): <body> cannot appear as a child of <div>.
+    // 上記エラーがでるため、<body> → <div> に変更
+    <div className={styles.bg}>
       <Khatabwedaa />
       <div className={styles.bg2}>
         <Bar />
@@ -51,6 +53,6 @@ export const Blog: FC<BlogProps> = ({
         </div>
         <Footer />
       </div>
-    </body>
+    </div>
   )
 }
