@@ -1,11 +1,22 @@
 .img {
-  /* @media (min-width: 640px) .sm\:block { */
-  display: block;
-  /* } */
+  /* hidden object-cover w-10 h-10 mx-4 rounded-full */
+  display: none;
+
   object-fit: cover;
+
   width: 2.5rem;
+
   height: 2.5rem;
+
   margin-left: 1rem;
   margin-right: 1rem;
+
   border-radius: 9999px;
+}
+
+@media (min-width: 640px) {
+  /* sm:block */
+  .img {
+    display: block;
+  }
 }

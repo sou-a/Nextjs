@@ -14,7 +14,7 @@
 }
 
 .container {
-  /* container flex flex-col items-center justify-between mx-auto md:flex-row */
+  /* container flex flex-col items-center justify-between mx-auto */
   width: 100%;
 
   display: flex;
@@ -27,36 +27,26 @@
 
   margin-left: auto;
   margin-right: auto;
-
-  /* @media (min-width: 768px) { */
-  flex-direction: row;
-  /* } */
 }
 
 .p {
-  /* mt-2 md:mt-0 */
-  margin-top: 0.5rem;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 
-  /* @media (min-width: 768px) { */
-  margin-top: 0px;
-  /* } */
+  /* mt-2 */
+  margin-top: 0.5rem;
 }
 
 .div {
-  /* flex mt-4 mb-2 -mx-2 md:mt-0 md:mb-0 */
+  /* flex mt-4 mb-2 -mx-2 */
   display: flex;
 
   margin-top: 1rem;
 
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 
-  margin-left: -1rem;
-  margin-right: -1rem;
-
-  /* @media (min-width: 768px) { */
-  margin-top: 0px;
-  margin-bottom: 0px;
-  /* } */
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
 
 .a {
@@ -82,6 +72,9 @@
   line-height: 2rem;
 
   font-weight: 700;
+
+  /* TODO: 白にならなかったので追加 */
+  color: #fff;
 }
 
 .svg {
@@ -91,4 +84,22 @@
   height: 1rem;
 
   fill: currentColor;
+}
+
+@media (min-width: 768px) {
+  .container {
+    /* md:flex-row */
+    flex-direction: row;
+  }
+
+  .p {
+    /* md:mt-0 */
+    margin-top: 0px;
+  }
+
+  .div {
+    /* md:mt-0 md:mb-0 */
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }

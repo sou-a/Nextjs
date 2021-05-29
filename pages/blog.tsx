@@ -20,11 +20,11 @@ const mockData = {
   postList: {
     posts: [
       {
-        postDate: '2021/5/21',
-        title: 'Title',
-        text: 'Text',
-        author: { author: 'Author', src: 'images/pikachu.png' },
-        tag: { value: 'Tag' },
+        postDate: 'Jun 1, 2020',
+        title: 'Build Your New Idea with Laravel Freamwork.',
+        text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos enim reprehenderit nisi, accusamus delectus nihil quis facere in modi ratione libero!',
+        author: { author: 'Alex John', src: 'images/pikachu.png' },
+        tag: { value: 'Laravel' },
       },
       {
         postDate: '2021/5/02',
