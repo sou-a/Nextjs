@@ -11,7 +11,10 @@ const loaders = (options = {}) => [
 ]
 
 module.exports = {
-  stories: ['../src/components/**/*.stories.@(tsx|mdx)'],
+  stories: [
+    '../src/components/**/*.stories.@(tsx|mdx)',
+    '../components/**/*.stories.@(tsx|mdx)',
+  ],
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-actions',

@@ -1,0 +1,28 @@
+.red {
+  background-color: lightcoral;
+}
+.blue {
+  background-color: lightblue;
+}
+.green {
+  background-color: lightgreen;
+}
+
+.small {
+  width: 5rem;
+  height: 2rem;
+}
+
+.medium {
+  width: 6rem;
+  height: 3rem;
+}
+
+.large {
+  width: 7rem;
+  height: 4rem;
+}
+
+.disabled {
+  background-color: silver;
+}
